@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" contents="ie=edge">
+	<title>MtG Organizer</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <script src='js/scripts.js'></script>
+</head>
+
+<body>
+    <figure>
+        <img src="images/mtg-logo-color-wheel.png"
+             alt="mtg logo">
+    </figure>
+    <header>
+        <h1>MtG Organizer</h1>
+    </header>
+
+    <nav>
+        <a href="/collection">Card Collection</a><br>
+        <a href="/deck">Deck Collection</a><br>
+        <a href="/builder">Deck Builder</a><br>
+        <a href="/update">Add New Card</a><br>
+    </nav>  
+</body>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" contents="ie=edge">
+	<title>MtG Organizer</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+	<script src='js/scripts.js'></script>
+</head>
+
+<body>
+    <header>
+        <h1>Decks</h1>
+    </header>
+    <main>
+		<table>
+			<tr>
+				<th>Deck Name</th>
+				<th>Color Identity</th>
+				<th>Actions</th>
+			</tr>  
+				<tr>
+					<td>
+						<p>Deck Name</p>
+					</td>
+					<td>Color Identity</td>
+					<td>
+						<button onclick="updateCard()">Update</button>
+						<br>
+						<button onclick="deleteCard()">Delete</button>
+					</td>
+				</tr>
+		</table>
+        <a href="/">Main Menu</a>
+	</main>
+</body>
